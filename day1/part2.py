@@ -14,7 +14,7 @@ if __name__ == '__main__':
         "test_inputR150R50.txt",
         "input.txt"
     ]:
-        with open(f"day1/{filename}", encoding='utf-8') as file:
+        with open(filename, encoding='utf-8') as file:
             lines = [line.rstrip() for line in file]
             cursor = 50
             password = 0
